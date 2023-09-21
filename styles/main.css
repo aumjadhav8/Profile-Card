@@ -1,0 +1,232 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.content {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, right top, from(#9789ccb3), to(#2700c1));
+  background: linear-gradient(to right top, #7f6e85, #d5cdf2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.content .glass {
+  min-height: 55rem;
+  width: 37rem;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(30, 30, 57, 0.5)), to(rgba(30, 30, 57, 0.3)));
+  background: linear-gradient(to right bottom, rgba(30, 30, 57, 0.5), rgba(30, 30, 57, 0.3));
+  border-radius: 2rem;
+  z-index: 3;
+  
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+
+}
+
+.content .glass header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .glass header .avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  border: 2px #955776 solid;
+  margin: 1.5rem 0 1rem 0;
+  padding: 0.8rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content .glass header h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.content .glass header p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.content .glass main p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  padding: 1.8rem 5rem 2rem 5rem;
+}
+
+.content .glass main .socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.content .glass main .socialmedia a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #fff;
+  background-color: #1e79e0d2;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1.4rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.content .glass main .socialmedia a img {
+  width: 2.8rem;
+  margin-right: 0.8rem;
+}
+
+.content .glass main .socialmedia a:hover {
+  background-color: #75445d;
+}
+
+.content .glass main .socialmedia #linkedin {
+  margin-right: 2.2rem;
+}
+
+.content .glass footer {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0px 0px 20px 20px;
+  padding: 1rem 2.5rem;
+}
+
+.content .glass footer h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0.4rem 1rem 0;
+  border: rgba(255, 255, 255, 0.1);
+}
+
+.content .glass footer h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.content .glass footer .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.content .glass footer .line2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.content .glass footer .line3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+/*# sourceMappingURL=main.css.map */
